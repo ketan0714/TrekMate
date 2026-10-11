@@ -8,7 +8,7 @@ function Navbar() {
         <>
         <nav className="navbar">
             <div className="navbar-logo" 
-            onClick={()=> navigate('./')}>
+            onClick={()=> navigate('/')}>
             TREKMATE
             </div>
 

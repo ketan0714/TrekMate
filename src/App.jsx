@@ -11,7 +11,7 @@ function App() {
 
   return(
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/TrekMate">
       <Navbar/>
         <Routes>
           <Route path="/" element={<Home />}></Route>

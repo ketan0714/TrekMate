@@ -1,0 +1,63 @@
+.trekmap {
+    padding: 80px 8%;
+    background-color: #f8faf8 ;
+}
+
+.map-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.map-tagline {
+    color: #166534;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.map-heading h2{
+    color: #1f2937;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+.map-heading span {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+/* map */
+
+/* .map-container {
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+} */
+
+.trek-map {
+  width: 100%;
+  height: 450px;
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.trek-map .leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  margin-top: 300px;
+  margin-left: 300px;
+}
+
+.trek-map .leaflet-popup-content {
+    margin: 14px 200px;
+    line-height: 1.6;
+    min-width: 120px;
+}
+
+/* Keep map controls and popup layers working properly */
+.trek-map .leaflet-pane {
+  z-index: 400;
+}

@@ -1,0 +1,47 @@
+
+.trekmate-footer {
+  margin: 0;
+  font-family: inherit;
+}
+
+.trekmate-footer-cta {
+  padding: 65px 20px;
+  text-align: center;
+  background: #e7ecdf;
+  color: #234735;
+}
+
+.trekmate-footer-cta > span {
+  color: #6c8262;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.trekmate-footer-cta h2 {
+  margin: 16px 0;
+  font-family: Georgia, serif;
+  font-size: clamp(27px, 4vw, 40px);
+  font-weight: 400;
+}
+
+.trekmate-footer-cta p {
+  margin: 0;
+  color: #687269;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.trekmate-copyright {
+  padding: 18px 15px;
+  text-align: center;
+  background: #234735;
+  color: #e7ecdf;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .trekmate-footer-cta {
+    padding: 50px 20px;
+  }
+}

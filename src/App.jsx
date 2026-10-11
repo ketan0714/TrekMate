@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {HashRouter, BrowserRouter, Routes, Route} from "react-router-dom"
 
 import "./App.css"
 import Explore from "./pages/Explore";
@@ -22,9 +22,6 @@ function App() {
       <Footer/>
   
     </BrowserRouter>
-
-
-    
     </>
   )
 }
